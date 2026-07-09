@@ -61,24 +61,12 @@
 
 ---
 
-### 🏆 GitHub 奖杯
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wanghongyu666qiang&theme=onestar&no-frame=true&column=4&margin-w=4&margin-h=4" />
-</p>
-
----
-
 ### 🚀 精选项目
 
-<p align="center">
-  <a href="https://github.com/wanghongyu666qiang/The_navigation_of_hainanu_web">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=wanghongyu666qiang&repo=The_navigation_of_hainanu_web&hide_border=true&title_color=f0883e&text_color=718096&icon_color=f0883e&bg_color=00000000" />
-  </a>
-  <a href="https://github.com/wanghongyu666qiang/smart-expense-tracker">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username=wanghongyu666qiang&repo=smart-expense-tracker&hide_border=true&title_color=f0883e&text_color=718096&icon_color=f0883e&bg_color=00000000" />
-  </a>
-</p>
+| 项目 | 描述 |
+|------|------|
+| [校园导航系统](https://github.com/wanghongyu666qiang/The_navigation_of_hainanu_web) | 海南大学三校区导航 · C++ 后台 + HTML/WASM 前端 · 双图架构 + 必经点筛选 |
+| [开支追踪器](https://github.com/wanghongyu666qiang/smart-expense-tracker) | Vue 3 个人财务管理 · 收支记录、分类统计、数据可视化 |
 
 ---
 
@@ -97,10 +85,6 @@
 
 <p align="center">
   <sub>
-    crafted with lots of <img src="https://emojis.slackmojis.com/emojis/images/1613285697/12806/meow_attention.png" width="16"/> 
-    by <strong>starry</strong> 
-    <img src="https://emojis.slackmojis.com/emojis/images/1643514187/1043/meow_coffee.png" width="16"/> 
-    & powered by <strong>t宝</strong> 
-    <img src="https://emojis.slackmojis.com/emojis/images/1643514096/151/meow_heart.png" width="16"/>
+    crafted with lots of ❤️ by <strong>starry</strong> & powered by <strong>💕 t宝</strong>
   </sub>
 </p>

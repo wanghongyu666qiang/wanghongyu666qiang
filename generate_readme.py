@@ -74,12 +74,10 @@ def build_contact():
     return "\n".join(lines)
 
 def build_projects():
-    cards = []
+    rows = []
     for proj in cfg["projects"]:
-        cards.append(f"""  <a href="https://github.com/{gh}/{proj['repo']}">
-    <img width="380" src="https://github-readme-stats.vercel.app/api/pin/?username={gh}&repo={proj['repo']}&hide_border=true&title_color=f0883e&text_color=718096&icon_color=f0883e&bg_color=00000000" />
-  </a>""")
-    return "\n".join(cards)
+        rows.append(f"| [{proj['name']}](https://github.com/{gh}/{proj['repo']}) | {proj['desc']} |")
+    return "\n".join(rows)
 
 # ── 模板 ──
 readme = f"""<p align="center">
@@ -132,19 +130,11 @@ readme = f"""<p align="center">
 
 ---
 
-### 🏆 GitHub 奖杯
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username={gh}&theme=onestar&no-frame=true&column=4&margin-w=4&margin-h=4" />
-</p>
-
----
-
 ### 🚀 精选项目
 
-<p align="center">
+| 项目 | 描述 |
+|------|------|
 {build_projects()}
-</p>
 
 ---
 
@@ -160,11 +150,7 @@ readme = f"""<p align="center">
 
 <p align="center">
   <sub>
-    crafted with lots of <img src="https://emojis.slackmojis.com/emojis/images/1613285697/12806/meow_attention.png" width="16"/> 
-    by <strong>{p['name']}</strong> 
-    <img src="https://emojis.slackmojis.com/emojis/images/1643514187/1043/meow_coffee.png" width="16"/> 
-    & powered by <strong>t宝</strong> 
-    <img src="https://emojis.slackmojis.com/emojis/images/1643514096/151/meow_heart.png" width="16"/>
+    crafted with lots of ❤️ by <strong>{p['name']}</strong> & powered by <strong>💕 t宝</strong>
   </sub>
 </p>
 """
