@@ -75,7 +75,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <p align="center">

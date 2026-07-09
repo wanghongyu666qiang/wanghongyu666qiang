@@ -140,7 +140,7 @@ readme = f"""<p align="center">
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/{gh}/{gh}/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/{gh}/{gh}/main/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 <p align="center">
