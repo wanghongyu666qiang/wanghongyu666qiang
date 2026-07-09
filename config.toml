@@ -1,0 +1,41 @@
+[profile]
+name = "starry"
+github = "wanghongyu666qiang"
+school = "海南大学"
+location = "海口"
+bio = "在代码里找乐趣的人"
+
+[contact]
+email = "why17573315302@gmail.com"
+blog = "https://starrylovetbao.cloud"
+blog_name = "starrylovetbao.cloud"
+
+# 社交平台（以后补上）
+[contact.social]
+# zhihu = "https://www.zhihu.com/people/xxx"
+# juejin = "https://juejin.cn/user/xxx"
+
+[about]
+items = [
+    "海南大学在读，热爱技术与创造",
+    "喜欢把想法变成能跑的东西",
+    "正在研究 MAS 多智能体聚合机制",
+    "当前维护：校园导航系统 & 开支追踪器",
+]
+
+[tech]
+languages = ["C++", "Python", "JavaScript"]
+frameworks = ["Vue.js"]
+web = ["HTML5", "CSS3", "WebAssembly"]
+tools = ["Git", "Linux", "VSCode", "GitHub"]
+
+# 只要往这里加/删就行，README 会自动更新
+[[projects]]
+name = "校园导航系统"
+repo = "The_navigation_of_hainanu_web"
+desc = "海南大学三校区导航 · C++ 后台 + HTML/WASM 前端 · 双图架构 + 必经点筛选"
+
+[[projects]]
+name = "开支追踪器"
+repo = "smart-expense-tracker"
+desc = "Vue 3 个人财务管理 · 收支记录、分类统计、数据可视化"
