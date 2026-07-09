@@ -62,7 +62,7 @@
 |------|------|
 | [校园导航系统](https://github.com/wanghongyu666qiang/The_navigation_of_hainanu_web) | 海南大学三校区导航 · C++ 后台 + HTML/WASM 前端 · 双图架构 + 必经点筛选 |
 | [开支追踪器](https://github.com/wanghongyu666qiang/smart-expense-tracker) | Vue 3 个人财务管理 · 收支记录、分类统计、数据可视化 |
-|[obsidian的rag知识库插件](https://github.com/wanghongyu666qiang/---obsidian-rag-)|个人知识库问答，帮助个人知识体系的养成|
+
 ---
 
 ### 🌱 关于我
@@ -75,7 +75,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg" />
 </p>
 
 <p align="center">
