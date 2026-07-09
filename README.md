@@ -47,11 +47,6 @@
 ### 📊 GitHub 统计
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&count_private=true&hide_border=true&title_color=f0883e&icon_color=f0883e&text_color=718096&bg_color=00000000&ring_color=f0883e" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&hide_border=true&title_color=f0883e&text_color=718096&bg_color=00000000" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=wanghongyu666qiang&hide_border=true&stroke=f0883e&ring=f0883e&fire=f0883e&currStreakLabel=f0883e&sideNums=f0883e&currStreakNum=718096&sideLabels=718096&dates=718096&background=00000000" />
 </p>
 
