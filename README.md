@@ -61,7 +61,8 @@
 | 项目 | 描述 |
 |------|------|
 | [校园导航系统](https://github.com/wanghongyu666qiang/The_navigation_of_hainanu_web) | 海南大学三校区导航 · C++ 后台 + HTML/WASM 前端 · 双图架构 + 必经点筛选 |
-| [开支追踪器](https://github.com/wanghongyu666qiang/smart-expense-tracker) | Vue 3 个人财务管理 · 收支记录、分类统计、数据可视化 |
+| [askbridge](https://github.com/wanghongyu666qiang/AskBridge) | 快速问屏 |
+
 
 ---
 
