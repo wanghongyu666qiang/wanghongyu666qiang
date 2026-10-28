@@ -78,8 +78,8 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=6E5446" alt="GitHub stats"></picture>&nbsp;&nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=6E5446" alt="Top languages"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=6E5446" width="420" alt="GitHub stats"></picture>&nbsp;&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=6E5446" width="330" alt="Top languages"></picture>
 </p>
 
 <p align="center">

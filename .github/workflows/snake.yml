@@ -23,6 +23,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Strip snk decorative bar
+        run: |
+          # snk 会在底部生成一条 class="u uN" 的装饰性动画横条，属于杂讯，去掉
+          python - <<'PY'
+          import re, pathlib
+          for f in pathlib.Path("output").glob("github-contribution-grid-snake*.svg"):
+              s = f.read_text(encoding="utf-8")
+              cleaned = re.sub(r'<rect class="u u\d+"[^>]*/>', '', s)
+              if cleaned != s:
+                  f.write_text(cleaned, encoding="utf-8")
+                  print(f"cleaned {f}")
+          PY
+
       - name: Commit snake
         run: |
           git config user.name "github-actions[bot]"

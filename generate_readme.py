@@ -219,14 +219,14 @@ def build_stats(cfg: dict) -> str:
                 + f"&title_color={PRIMARY}&icon_color={PRIMARY}&ring_color={PRIMARY}")
         pair.append(picture(
             base + f"&text_color={TEXT_L}", base + f"&text_color={TEXT_D}",
-            "GitHub stats"))
+            "GitHub stats", "420"))
     if s.get("langs", True):
         base = ("https://github-readme-stats.vercel.app/api/top-langs/?username=" + gh
                 + "&layout=compact&langs_count=8&hide_border=true&bg_color=00000000"
                 + f"&title_color={PRIMARY}")
         pair.append(picture(
             base + f"&text_color={TEXT_L}", base + f"&text_color={TEXT_D}",
-            "Top languages"))
+            "Top languages", "330"))
     if pair:
         blocks.append('<p align="center">\n  ' + "&nbsp;&nbsp;\n  ".join(pair) + "\n</p>")
 
