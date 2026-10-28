@@ -1,4 +1,5 @@
 .workbuddy/
 preview.html
 preview-*.html
-shot-*.png
+shot*.png
+crop-*.png
