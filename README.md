@@ -20,21 +20,21 @@
 ## 技术栈
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-CBB6A4?style=flat&logo=cplusplus&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Python-CBB6A4?style=flat&logo=python&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/TypeScript-CBB6A4?style=flat&logo=typescript&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Rust-CBB6A4?style=flat&logo=rust&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Vue.js-CBB6A4?style=flat&logo=vuedotjs&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Next.js-CBB6A4?style=flat&logo=nextdotjs&logoColor=4A3B32" />
+  <img src="https://img.shields.io/badge/C%2B%2B-D8C3AD?style=for-the-badge&logo=cplusplus&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Python-D8C3AD?style=for-the-badge&logo=python&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/TypeScript-D8C3AD?style=for-the-badge&logo=typescript&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Rust-D8C3AD?style=for-the-badge&logo=rust&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Vue.js-D8C3AD?style=for-the-badge&logo=vuedotjs&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Next.js-D8C3AD?style=for-the-badge&logo=nextdotjs&logoColor=54402F" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-CBB6A4?style=flat&logo=html5&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/CSS3-CBB6A4?style=flat&logo=css3&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/WebAssembly-CBB6A4?style=flat&logo=webassembly&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Git-CBB6A4?style=flat&logo=git&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Linux-CBB6A4?style=flat&logo=linux&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/Docker-CBB6A4?style=flat&logo=docker&logoColor=4A3B32" />
-  <img src="https://img.shields.io/badge/VSCode-CBB6A4?style=flat&logo=visualstudiocode&logoColor=4A3B32" />
+  <img src="https://img.shields.io/badge/HTML5-D8C3AD?style=for-the-badge&logo=html5&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/CSS3-D8C3AD?style=for-the-badge&logo=css3&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/WebAssembly-D8C3AD?style=for-the-badge&logo=webassembly&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Git-D8C3AD?style=for-the-badge&logo=git&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Linux-D8C3AD?style=for-the-badge&logo=linux&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/Docker-D8C3AD?style=for-the-badge&logo=docker&logoColor=54402F" />
+  <img src="https://img.shields.io/badge/VSCode-D8C3AD?style=for-the-badge&logo=visualstudiocode&logoColor=54402F" />
 </p>
 
 ## 项目

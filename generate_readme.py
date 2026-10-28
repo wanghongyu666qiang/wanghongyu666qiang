@@ -53,7 +53,7 @@ def shield(message: str, color: str, logo: str | None = None,
            logo_color: str = "white", style: str = "flat-square",
            mono: bool = False) -> str:
     if mono:                      # 纸墨单色，和整体调性一致
-        color, logo_color = "CBB6A4", "4A3B32"
+        color, logo_color = "D8C3AD", "54402F"
     url = f"https://img.shields.io/badge/{enc(message)}-{color}?style={style}"
     if logo:
         url += f"&logo={logo}&logoColor={logo_color}"
@@ -109,7 +109,7 @@ def build_banner(cfg: dict, dark: bool) -> str:
 def build_tech(cfg: dict) -> str:
     t = cfg["tech"]
     mono = bool(t.get("mono", False))
-    style = "flat" if mono else "for-the-badge"
+    style = "for-the-badge"
     rows = [t.get("languages", []) + t.get("frameworks", []),
             t.get("web", []) + t.get("tools", [])]
     out = []
