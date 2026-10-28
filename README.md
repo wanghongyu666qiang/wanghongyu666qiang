@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg?v=3"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg?v=3" width="100%" alt="starry"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg?v=4"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg?v=4" width="100%" alt="starry"></picture>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 ## 关于我
 
-海大在读。喜欢 C++ 的确定感，也喜欢 Python 的随性——写代码是为了让想法真的跑起来，不是为了写而写。
+海大在读。喜欢 C++ 的确定性，也喜欢 Python 的随意。写代码和写字差不多——都是把想不清楚的事，慢慢写清楚。
 
 ## 技术栈
 
@@ -78,7 +78,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg?v=3"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg?v=3" width="100%" alt="Contribution snake"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg?v=4"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg?v=4" width="100%" alt="Contribution snake"></picture>
 </p>
 
 <p align="center">

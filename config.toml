@@ -12,8 +12,8 @@ school       = "海南大学"
 school_en    = "Hainan University"     # banner 里用英文，和等宽字体才搭
 location     = "海口"
 location_en  = "Haikou"
-headline     = "把想法变成能跑的东西"
-asset_version = "3"                    # 改了 banner / 蛇图后 +1，否则 GitHub 图片缓存会装死
+headline     = "把想法写成能跑的东西"
+asset_version = "4"                    # 改了 banner / 蛇图后 +1，否则 GitHub 图片缓存会装死
 
 [contact]
 email     = "why17573315302@gmail.com"
@@ -27,7 +27,7 @@ blog_name = "starrylovetbao.cloud"
 
 [about]
 # 一段话，不写成清单。清单看起来像简历模板。
-text = "海大在读。喜欢 C++ 的确定感，也喜欢 Python 的随性——写代码是为了让想法真的跑起来，不是为了写而写。"
+text = "海大在读。喜欢 C++ 的确定性，也喜欢 Python 的随意。写代码和写字差不多——都是把想不清楚的事，慢慢写清楚。"
 
 [tech]
 languages  = ["C++", "Python", "TypeScript", "Rust"]

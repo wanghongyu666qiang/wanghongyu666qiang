@@ -70,36 +70,34 @@ def picture(light: str, dark: str, alt: str, width: str | None = None) -> str:
 
 # ── banner ────────────────────────────────────────────────
 def build_banner(cfg: dict, dark: bool) -> str:
-    """极简排版式 banner：只靠字重、留白和一条橙线，不放任何装饰图形。"""
+    """文艺版：衬线大字 + 手绘细线 + 纸色底，只留必要的几笔。"""
     p = cfg["profile"]
     if dark:
-        bg = ("#131010", "#1B1512")
-        ink = "#F5EEE8"
-        rule, rule_op = "#F5EEE8", "0.13"
-        meta_c, head_c = "#8F7A6C", "#C0A79A"
+        bg = ("#12100F", "#1C1614")
+        ink = "#F2EBE3"
+        meta_c, head_c = "#8A7466", "#C6AD9E"
     else:
-        bg = ("#FDFAF7", "#FAF0E7")
-        ink = "#1A1512"
-        rule, rule_op = "#1A1512", "0.11"
-        meta_c, head_c = "#8C7B70", "#5F4C41"
+        bg = ("#FCF8F2", "#F6EDE0")
+        ink = "#2A211C"
+        meta_c, head_c = "#9C8578", "#5C4A3F"
 
     meta = " — ".join(x.upper() for x in [
         p.get("school_en", ""), p.get("location_en", "")
     ] if x)
 
-    return f'''<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{p['name']}">
+    return f'''<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{p['name']}">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
       <stop stop-color="{bg[0]}"/>
       <stop offset="1" stop-color="{bg[1]}"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect x="56" y="100" width="5" height="76" rx="2.5" fill="#{PRIMARY}"/>
-  <text x="84" y="166" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-4" fill="{ink}">{p['name']}</text>
-  <rect x="56" y="202" width="1088" height="1" fill="{rule}" fill-opacity="{rule_op}"/>
-  <text x="56" y="245" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="15" letter-spacing="1.6" fill="{meta_c}">{meta}</text>
-  <text x="1144" y="148" text-anchor="end" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="24" fill="{head_c}">{p.get('headline', '')}</text>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect x="84" y="110" width="4" height="70" rx="2" fill="#{PRIMARY}"/>
+  <text x="112" y="180" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="106" letter-spacing="-2" fill="{ink}">{p['name']}</text>
+  <path d="M84 212 C 340 211, 620 213.5, 900 212 S 1060 211.4, 1144 212" fill="none" stroke="{ink}" stroke-opacity="0.26" stroke-width="1.2"/>
+  <text x="84" y="266" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="1.8" fill="{meta_c}">{meta}</text>
+  <text x="1144" y="268" text-anchor="end" font-family="'Songti SC', 'STSong', 'SimSun', 'PingFang SC', Georgia, serif" font-size="26" fill="{head_c}">{p.get('headline', '')}</text>
 </svg>
 '''
 

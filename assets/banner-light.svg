@@ -1,14 +1,14 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="starry">
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="starry">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FDFAF7"/>
-      <stop offset="1" stop-color="#FAF0E7"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF8F2"/>
+      <stop offset="1" stop-color="#F6EDE0"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <rect x="56" y="100" width="5" height="76" rx="2.5" fill="#F0883E"/>
-  <text x="84" y="166" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-4" fill="#1A1512">starry</text>
-  <rect x="56" y="202" width="1088" height="1" fill="#1A1512" fill-opacity="0.11"/>
-  <text x="56" y="245" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="15" letter-spacing="1.6" fill="#8C7B70">HAINAN UNIVERSITY — HAIKOU</text>
-  <text x="1144" y="148" text-anchor="end" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="24" fill="#5F4C41">把想法变成能跑的东西</text>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect x="84" y="110" width="4" height="70" rx="2" fill="#F0883E"/>
+  <text x="112" y="180" font-family="Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif" font-size="106" letter-spacing="-2" fill="#2A211C">starry</text>
+  <path d="M84 212 C 340 211, 620 213.5, 900 212 S 1060 211.4, 1144 212" fill="none" stroke="#2A211C" stroke-opacity="0.26" stroke-width="1.2"/>
+  <text x="84" y="266" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="14" letter-spacing="1.8" fill="#9C8578">HAINAN UNIVERSITY — HAIKOU</text>
+  <text x="1144" y="268" text-anchor="end" font-family="'Songti SC', 'STSong', 'SimSun', 'PingFang SC', Georgia, serif" font-size="26" fill="#5C4A3F">把想法写成能跑的东西</text>
 </svg>
