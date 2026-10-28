@@ -30,6 +30,7 @@ blog_name = "starrylovetbao.cloud"
 text = "海大在读。喜欢 C++ 的确定性，也喜欢 Python 的随意。写代码和写字差不多——都是把想不清楚的事，慢慢写清楚。"
 
 [tech]
+mono       = true        # 纸墨单色徽章；改 false 回到各语言的品牌色
 languages  = ["C++", "Python", "TypeScript", "Rust"]
 frameworks = ["Vue.js", "Next.js"]
 web        = ["HTML5", "CSS3", "WebAssembly"]

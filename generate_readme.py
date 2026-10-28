@@ -50,7 +50,10 @@ def enc(s: str) -> str:
 
 
 def shield(message: str, color: str, logo: str | None = None,
-           logo_color: str = "white", style: str = "flat-square") -> str:
+           logo_color: str = "white", style: str = "flat-square",
+           mono: bool = False) -> str:
+    if mono:                      # 纸墨单色，和整体调性一致
+        color, logo_color = "CBB6A4", "4A3B32"
     url = f"https://img.shields.io/badge/{enc(message)}-{color}?style={style}"
     if logo:
         url += f"&logo={logo}&logoColor={logo_color}"
@@ -105,6 +108,8 @@ def build_banner(cfg: dict, dark: bool) -> str:
 # ── 各区块 ────────────────────────────────────────────────
 def build_tech(cfg: dict) -> str:
     t = cfg["tech"]
+    mono = bool(t.get("mono", False))
+    style = "flat" if mono else "for-the-badge"
     rows = [t.get("languages", []) + t.get("frameworks", []),
             t.get("web", []) + t.get("tools", [])]
     out = []
@@ -114,7 +119,7 @@ def build_tech(cfg: dict) -> str:
         imgs = []
         for name in row:
             color, logo, lc = STACK.get(name, ("888888", None, "white"))
-            imgs.append("  " + shield(name, color, logo, lc, "for-the-badge"))
+            imgs.append("  " + shield(name, color, logo, lc, style, mono))
         out.append('<p align="center">\n' + "\n".join(imgs) + "\n</p>")
     return "\n".join(out)
 
@@ -273,7 +278,7 @@ def main() -> None:
         "## 技术栈\n\n" + build_tech(cfg),
         "## 项目\n\n" + build_projects(cfg, meta),
         "## 一些数字\n\n" + build_stats(cfg),
-        '<p align="center">\n  <sub>crafted with ❤️ by <strong>%s</strong> · powered by 💕 t宝</sub>\n</p>' % p["name"],
+        '<p align="center">\n  <sub>海口 · 二〇二六年 —— <strong>%s</strong> 写，💕 t宝 陪着</sub>\n</p>' % p["name"],
     ]
 
     README_PATH.write_text("\n\n".join(x for x in parts if x.strip()) + "\n", encoding="utf-8")
