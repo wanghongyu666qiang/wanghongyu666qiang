@@ -54,9 +54,9 @@
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>💬 <a href="https://github.com/wanghongyu666qiang/astrbot_plugin_private_companion">private_companion</a></h3>
-<p><code>Python</code></p>
-<p>AstrBot 的拟人化插件。状态机、作息日程、日记、低频主动消息，60+ 项功能都在解决同一件事：让 bot 有连续的自我，而不是每句话都从零开始。</p>
+<h3>🐋 <a href="https://github.com/wanghongyu666qiang/codex_deepseekpet">codex_deepseekpet</a></h3>
+<p><code>Assets</code> · ★ 2</p>
+<p>给 Codex 桌宠画的角色资产包——鲸鱼主题的 Q 版角色，精灵图、设定稿和 QA 拼版都在仓库里。丢进 $CODEX_HOME/pets/ 就能用。</p>
 </td>
 <td width="50%" valign="top">
 <h3>💸 <a href="https://github.com/wanghongyu666qiang/smart-expense-tracker">smart-expense-tracker</a></h3>

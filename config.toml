@@ -55,12 +55,12 @@ emoji = "🗺️"
 desc  = "数据结构课设。除基本寻路外做了三件事：步行和车行两张图分开算权重、红绿灯时长进边权、必经点多点路径用 DFS 配哈希表筛。"
 
 [[projects]]
-name  = "private_companion"
-repo  = "astrbot_plugin_private_companion"
-lang  = "Python"
-stars = 0
-emoji = "💬"
-desc  = "AstrBot 的拟人化插件。状态机、作息日程、日记、低频主动消息，60+ 项功能都在解决同一件事：让 bot 有连续的自我，而不是每句话都从零开始。"
+name  = "codex_deepseekpet"
+repo  = "codex_deepseekpet"
+lang  = "Assets"
+stars = 2
+emoji = "🐋"
+desc  = "给 Codex 桌宠画的角色资产包——鲸鱼主题的 Q 版角色，精灵图、设定稿和 QA 拼版都在仓库里。丢进 $CODEX_HOME/pets/ 就能用。"
 
 [[projects]]
 name  = "smart-expense-tracker"
