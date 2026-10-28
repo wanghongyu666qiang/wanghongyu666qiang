@@ -142,10 +142,10 @@ def build_banner(cfg: dict, dark: bool) -> str:
     <rect x="898" y="170" width="66" height="9" rx="4.5" fill="#{WARM}" fill-opacity="{bar[3]}"/>
   </g>
 
-  <text x="96" y="156" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#ink)">{p['name']}</text>
-  <rect x="98" y="182" width="78" height="6" rx="3" fill="url(#accent)"/>
-  <text x="98" y="228" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="19" font-weight="600" letter-spacing="1.4" fill="{meta_c}">{meta}</text>
-  <text x="98" y="266" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="17" letter-spacing="0.6" fill="{head_c}">{p.get('headline', '')}</text>
+  <text x="96" y="150" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-2" fill="url(#ink)">{p['name']}</text>
+  <rect x="98" y="180" width="86" height="7" rx="3.5" fill="url(#accent)"/>
+  <text x="98" y="234" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="600" letter-spacing="1.2" fill="{meta_c}">{meta}</text>
+  <text x="98" y="278" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="22" letter-spacing="0.5" fill="{head_c}">{p.get('headline', '')}</text>
 </svg>
 '''
 
