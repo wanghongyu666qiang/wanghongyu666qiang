@@ -239,9 +239,11 @@ def build_stats(cfg: dict) -> str:
 
     if s.get("snake", True):
         raw = f"https://raw.githubusercontent.com/{gh}/{gh}/main/output"
-        blocks.append(one(f"{raw}/github-contribution-grid-snake.svg",
-                          f"{raw}/github-contribution-grid-snake-dark.svg",
-                          "Contribution snake"))
+        # 必须给 100%，否则 SVG 按 880px 原尺寸渲染、右侧会被容器裁掉
+        blocks.append('<p align="center">\n  ' + picture(
+            f"{raw}/github-contribution-grid-snake.svg",
+            f"{raw}/github-contribution-grid-snake-dark.svg",
+            "Contribution snake", "100%") + "\n</p>")
 
     return "\n\n".join(blocks)
 
