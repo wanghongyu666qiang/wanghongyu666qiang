@@ -1,86 +1,95 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&duration=3000&pause=1000&color=F0883E&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+starry+%F0%9F%91%8B;%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6%E5%9C%A8%E8%AF%BB;%E7%83%AD%E7%88%B1%E6%9E%84%E5%BB%BA%E6%9C%89%E7%94%A8%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF;%E6%AC%A2%E8%BF%8E%E4%BD%A0%E7%9A%84%E5%88%B0%E6%9D%A5+" alt="Typing SVG" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg" width="100%" alt="starry"></picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/wanghongyu666qiang"><img src="https://img.shields.io/badge/GitHub-f0883e?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=wanghongyu666qiang&style=for-the-badge&color=f0883e" />
+  <img src="https://img.shields.io/badge/%E6%B5%B7%E5%8D%97%E5%A4%A7%E5%AD%A6-F0883E?style=flat-square" />
+  <img src="https://img.shields.io/badge/%E6%B5%B7%E5%8F%A3-F0883E?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=wanghongyu666qiang&style=flat-square&color=F0883E&label=visitors" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🏫-海南大学-2dba4e?style=flat-square" />
-  <img src="https://img.shields.io/badge/📍-海口-f0883e?style=flat-square" />
-  <img src="https://img.shields.io/badge/💻-在代码里找乐趣的人-e25555?style=flat-square" />
+  <a href="mailto:why17573315302@gmail.com"><img src="https://img.shields.io/badge/Email-why17573315302%40gmail.com-E25555?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://starrylovetbao.cloud"><img src="https://img.shields.io/badge/Blog-starrylovetbao.cloud-F0883E?style=flat-square&logo=safari&logoColor=white" /></a>
 </p>
 
----
+## 🧭 关于我
 
-### 📬 联系我
+- 海大在读，写代码是为了把想法真的跑起来，不是为了写而写
+- 喜欢 C++ 的确定感，也喜欢 Python 的随性
+- 手上在推进：AI 家族史系统、校园导航、一个拟人化聊天 Bot
+- 相信好的工程是「删掉的比加上的多」
 
-<p align="center">
-  <a href="mailto:why17573315302@gmail.com"><img src="https://img.shields.io/badge/📧%20Email-why17573315302%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://starrylovetbao.cloud"><img src="https://img.shields.io/badge/🌐%20starrylovetbao.cloud-ff69b4?style=flat-square&logo=safari&logoColor=white" /></a>
-  <!-- 社交平台链接：在 config.toml 中 [contact.social] 下填写 -->
-</p>
+> 🎯 现在在忙：**冲刺 2026 AIC · 做一套能给家里人讲故事的 AI 访谈系统**
 
----
-
-### 🛠️ 技术栈
+## 🧰 技术栈
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c++&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" />
-  
+</p>
+<p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=vscode&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
----
+## 🚀 精选项目
 
-### 📊 GitHub 统计
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🦀 <a href="https://github.com/wanghongyu666qiang/AskBridge">AskBridge</a></h3>
+<p><code>Rust</code> · ★ 2</p>
+<p>Rust + Win32 写成的截图问 AI 小工具。全局热键框选，截完直接追问，不打断手上的活。</p>
+</td>
+<td width="50%" valign="top">
+<h3>🗺️ <a href="https://github.com/wanghongyu666qiang/The-nav-of-hainanu">The-nav-of-hainanu</a></h3>
+<p><code>C++</code></p>
+<p>海南大学三校区导航。C++ 服务端 + HTML/WASM 前端，双图架构（步行/车行两套权重），红绿灯建模与必经点路径筛选。</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>💬 <a href="https://github.com/wanghongyu666qiang/astrbot_plugin_private_companion">private_companion</a></h3>
+<p><code>Python</code></p>
+<p>AstrBot 拟人化整合插件。连续状态机、生活日程、日记与低频主动消息，60+ 项功能。</p>
+</td>
+<td width="50%" valign="top">
+<h3>💸 <a href="https://github.com/wanghongyu666qiang/smart-expense-tracker">smart-expense-tracker</a></h3>
+<p><code>Vue</code></p>
+<p>Vue 3 个人开支追踪。收支记录、分类统计与可视化，一个把预算看明白的小工具。</p>
+</td>
+</tr>
+</table>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=wanghongyu666qiang&hide_border=true&stroke=f0883e&ring=f0883e&fire=f0883e&currStreakLabel=f0883e&sideNums=f0883e&currStreakNum=718096&sideLabels=718096&dates=718096&background=00000000" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=wanghongyu666qiang&bg_color=00000000&color=718096&line=f0883e&point=f0883e&area=true&area_color=f0883e40&hide_border=true" />
-</p>
-
----
-
-### 🚀 精选项目
-
-| 项目 | 描述 |
-|------|------|
-| [校园导航系统](https://github.com/wanghongyu666qiang/The_navigation_of_hainanu_web) | 海南大学三校区导航 · C++ 后台 + HTML/WASM 前端 · 双图架构 + 必经点筛选 |
-| [askbridge](https://github.com/wanghongyu666qiang/AskBridge) | 快速问屏 |
-
-
----
-
-### 🌱 关于我
-
-- 海南大学在读，热爱技术与创造
-- 喜欢把想法变成能跑的东西
-- 正在研究 MAS 多智能体聚合机制
-- 当前维护：校园导航系统 & 开支追踪器
-
----
+## 📊 一些数字
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=wanghongyu666qiang&hide_border=true&background=00000000&stroke=F0883E&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideNums=F0883E&currStreakNum=FFF7F1&sideLabels=C2A090&dates=C2A090"><img src="https://streak-stats.demolab.com/?user=wanghongyu666qiang&hide_border=true&background=00000000&stroke=F0883E&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideNums=F0883E&currStreakNum=2C1A11&sideLabels=6E5446&dates=6E5446" alt="GitHub streak"></picture>
 </p>
 
 <p align="center">
-  <sub>
-    crafted with lots of ❤️ by <strong>starry</strong> & powered by <strong>💕 t宝</strong>
-  </sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=6E5446" alt="GitHub stats"></picture>&nbsp;&nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=6E5446" alt="Top languages"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wanghongyu666qiang&hide_border=true&area=true&bg_color=00000000&line=F0883E&point=F0883E&area_color=F0883E40&color=C2A090"><img src="https://github-readme-activity-graph.vercel.app/graph?username=wanghongyu666qiang&hide_border=true&area=true&bg_color=00000000&line=F0883E&point=F0883E&area_color=F0883E40&color=6E5446" alt="Contribution graph"></picture>
+</p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg" alt="Contribution snake"></picture>
+</p>
+
+<p align="center">
+  <sub>crafted with ❤️ by <strong>starry</strong> · powered by 💕 t宝</sub>
 </p>
