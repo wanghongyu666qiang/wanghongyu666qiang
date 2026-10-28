@@ -78,5 +78,5 @@ desc  = "Vue 3 个人开支追踪。收支记录、分类统计与可视化，�
 streak   = true
 overview = true
 langs    = true
-activity = true
+activity = false   # 该服务已转收费(402)，页面下方 GitHub 自带贡献图已够用
 snake    = true

@@ -153,8 +153,8 @@ def build_banner(cfg: dict, dark: bool) -> str:
 # ── 各区块 ────────────────────────────────────────────────
 def build_tech(cfg: dict) -> str:
     t = cfg["tech"]
-    rows = [t.get("languages", []) + t.get("frameworks", []) + t.get("web", []),
-            t.get("tools", [])]
+    rows = [t.get("languages", []) + t.get("frameworks", []),
+            t.get("web", []) + t.get("tools", [])]
     out = []
     for row in rows:
         if not row:

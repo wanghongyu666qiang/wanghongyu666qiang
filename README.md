@@ -31,11 +31,11 @@
   <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+</p>
+<p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white" />
-</p>
-<p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
@@ -80,10 +80,6 @@
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api?username=wanghongyu666qiang&show_icons=true&hide_border=true&bg_color=00000000&title_color=F0883E&icon_color=F0883E&ring_color=F0883E&text_color=6E5446" alt="GitHub stats"></picture>&nbsp;&nbsp;
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=C2A090"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wanghongyu666qiang&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=F0883E&text_color=6E5446" alt="Top languages"></picture>
-</p>
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=wanghongyu666qiang&hide_border=true&area=true&bg_color=00000000&line=F0883E&point=F0883E&area_color=F0883E40&color=C2A090"><img src="https://github-readme-activity-graph.vercel.app/graph?username=wanghongyu666qiang&hide_border=true&area=true&bg_color=00000000&line=F0883E&point=F0883E&area_color=F0883E40&color=6E5446" alt="Contribution graph"></picture>
 </p>
 
 <p align="center">
