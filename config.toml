@@ -10,6 +10,7 @@ github    = "wanghongyu666qiang"
 school    = "海南大学"
 location  = "海口"
 headline  = "把想法变成能跑的东西"    # banner 底下那句，也是徽章
+asset_version = "2"                  # 改了 banner/蛇图后 +1，强制刷新 GitHub 图片缓存
 
 [contact]
 email     = "why17573315302@gmail.com"

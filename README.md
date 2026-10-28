@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg" width="100%" alt="starry"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg?v=2"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg?v=2" width="100%" alt="starry"></picture>
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg?v=2"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg?v=2" width="100%" alt="Contribution snake"></picture>
 </p>
 
 <p align="center">

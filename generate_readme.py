@@ -239,10 +239,11 @@ def build_stats(cfg: dict) -> str:
 
     if s.get("snake", True):
         raw = f"https://raw.githubusercontent.com/{gh}/{gh}/main/output"
+        v = cfg["profile"].get("asset_version", "1")
         # 必须给 100%，否则 SVG 按 880px 原尺寸渲染、右侧会被容器裁掉
         blocks.append('<p align="center">\n  ' + picture(
-            f"{raw}/github-contribution-grid-snake.svg",
-            f"{raw}/github-contribution-grid-snake-dark.svg",
+            f"{raw}/github-contribution-grid-snake.svg?v={v}",
+            f"{raw}/github-contribution-grid-snake-dark.svg?v={v}",
             "Contribution snake", "100%") + "\n</p>")
 
     return "\n\n".join(blocks)
@@ -300,7 +301,8 @@ def main() -> None:
     (ASSETS / "banner-dark.svg").write_text(build_banner(cfg, True), encoding="utf-8")
 
     raw = f"https://raw.githubusercontent.com/{gh}/{gh}/main/assets"
-    banner = picture(f"{raw}/banner-light.svg", f"{raw}/banner-dark.svg",
+    v = p.get("asset_version", "1")
+    banner = picture(f"{raw}/banner-light.svg?v={v}", f"{raw}/banner-dark.svg?v={v}",
                      p["name"], "100%")
 
     chips = [
