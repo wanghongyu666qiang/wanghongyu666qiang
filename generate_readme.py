@@ -70,82 +70,36 @@ def picture(light: str, dark: str, alt: str, width: str | None = None) -> str:
 
 # ── banner ────────────────────────────────────────────────
 def build_banner(cfg: dict, dark: bool) -> str:
+    """极简排版式 banner：只靠字重、留白和一条橙线，不放任何装饰图形。"""
     p = cfg["profile"]
     if dark:
-        stops = ("#151011", "#1D1411", "#2A1912")
-        ink_a, ink_b = "#FFF7F1", "#FFC9A6"
-        meta_c, head_c = "#D4B3A2", "#BA9A8A"
-        card_fill, card_op, card_stroke = "#2B1B13", "0.95", "0.42"
-        bar = ("0.75", "0.42", "0.40", "0.28")
-        dot_op, line_op = "0.13", "0.14"
+        bg = ("#131010", "#1B1512")
+        ink = "#F5EEE8"
+        rule, rule_op = "#F5EEE8", "0.13"
+        meta_c, head_c = "#8F7A6C", "#C0A79A"
     else:
-        stops = ("#FFFCF9", "#FFF4EB", "#FFE2CB")
-        ink_a, ink_b = "#2C1A11", "#63381F"
-        meta_c, head_c = "#8A6A5A", "#8A6A5A"
-        card_fill, card_op, card_stroke = "#FFFFFF", "0.90", "0.32"
-        bar = ("0.62", "0.34", "0.30", "0.22")
-        dot_op, line_op = "0.10", "0.10"
+        bg = ("#FDFAF7", "#FAF0E7")
+        ink = "#1A1512"
+        rule, rule_op = "#1A1512", "0.11"
+        meta_c, head_c = "#8C7B70", "#5F4C41"
 
-    meta = " · ".join(x for x in [
-        p.get("real_name", ""), p.get("school", ""), p.get("location", "")
+    meta = " — ".join(x.upper() for x in [
+        p.get("school_en", ""), p.get("location_en", "")
     ] if x)
 
-    return f'''<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{p['name']}">
+    return f'''<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{p['name']}">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="{stops[0]}"/>
-      <stop offset="0.52" stop-color="{stops[1]}"/>
-      <stop offset="1" stop-color="{stops[2]}"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="{bg[0]}"/>
+      <stop offset="1" stop-color="{bg[1]}"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 70) rotate(40) scale(410 335)">
-      <stop stop-color="#{PRIMARY}" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#{PRIMARY}" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 310) rotate(-35) scale(400 280)">
-      <stop stop-color="#{WARM}" stop-opacity="0.29"/>
-      <stop offset="1" stop-color="#{WARM}" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ink" x1="96" y1="96" x2="400" y2="176" gradientUnits="userSpaceOnUse">
-      <stop stop-color="{ink_a}"/>
-      <stop offset="1" stop-color="{ink_b}"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="98" y1="0" x2="176" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#{PRIMARY}"/>
-      <stop offset="1" stop-color="#{WARM}"/>
-    </linearGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1.6" cy="1.6" r="1.6" fill="#{PRIMARY}" fill-opacity="{dot_op}"/>
-    </pattern>
   </defs>
-
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#dots)"/>
-  <rect width="1200" height="320" fill="url(#glowA)"/>
-  <rect width="1200" height="320" fill="url(#glowB)"/>
-
-  <g opacity="0.55">
-    <path d="M-40 300 L200 -40" stroke="#{PRIMARY}" stroke-opacity="{line_op}" stroke-width="1.5"/>
-    <path d="M20 330 L260 -30" stroke="#{PRIMARY}" stroke-opacity="{line_op}" stroke-width="1.5"/>
-  </g>
-
-  <g transform="rotate(-9 935 180)">
-    <rect x="820" y="105" width="230" height="150" rx="22" fill="#{PRIMARY}" fill-opacity="0.10"/>
-  </g>
-  <g transform="rotate(-3 960 161)">
-    <rect x="845" y="86" width="230" height="150" rx="22" fill="#{PRIMARY}" fill-opacity="0.16"/>
-  </g>
-  <g transform="rotate(4 985 139)">
-    <rect x="870" y="64" width="230" height="150" rx="22" fill="{card_fill}" fill-opacity="{card_op}" stroke="#{PRIMARY}" stroke-opacity="{card_stroke}" stroke-width="1.5"/>
-    <rect x="898" y="98" width="88" height="9" rx="4.5" fill="#{PRIMARY}" fill-opacity="{bar[0]}"/>
-    <rect x="898" y="122" width="152" height="9" rx="4.5" fill="#{WARM}" fill-opacity="{bar[1]}"/>
-    <rect x="898" y="146" width="122" height="9" rx="4.5" fill="#{PRIMARY}" fill-opacity="{bar[2]}"/>
-    <rect x="898" y="170" width="66" height="9" rx="4.5" fill="#{WARM}" fill-opacity="{bar[3]}"/>
-  </g>
-
-  <text x="96" y="150" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-2" fill="url(#ink)">{p['name']}</text>
-  <rect x="98" y="180" width="86" height="7" rx="3.5" fill="url(#accent)"/>
-  <text x="98" y="234" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="600" letter-spacing="1.2" fill="{meta_c}">{meta}</text>
-  <text x="98" y="278" font-family="'Segoe UI', 'PingFang SC', 'Microsoft YaHei', Arial, sans-serif" font-size="22" letter-spacing="0.5" fill="{head_c}">{p.get('headline', '')}</text>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect x="56" y="100" width="5" height="76" rx="2.5" fill="#{PRIMARY}"/>
+  <text x="84" y="166" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-4" fill="{ink}">{p['name']}</text>
+  <rect x="56" y="202" width="1088" height="1" fill="{rule}" fill-opacity="{rule_op}"/>
+  <text x="56" y="245" font-family="'SF Mono', Consolas, 'Courier New', monospace" font-size="15" letter-spacing="1.6" fill="{meta_c}">{meta}</text>
+  <text x="1144" y="148" text-anchor="end" font-family="'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif" font-size="24" fill="{head_c}">{p.get('headline', '')}</text>
 </svg>
 '''
 
@@ -311,17 +265,16 @@ def main() -> None:
         f'<img src="https://komarev.com/ghpvc/?username={gh}&style=flat-square&color={PRIMARY}&label=visitors" />',
     ]
 
-    about = "\n".join(f"- {x}" for x in cfg["about"]["items"])
-    now = cfg.get("now", {}).get("text", "")
+    about = cfg["about"]["text"].strip()
 
     parts = [
         f'<p align="center">\n  {banner}\n</p>',
         '<p align="center">\n  ' + "\n  ".join(chips) + "\n</p>",
         build_contact(cfg),
-        "## 🧭 关于我\n\n" + about + (f"\n\n> 🎯 现在在忙：**{now}**" if now else ""),
-        "## 🧰 技术栈\n\n" + build_tech(cfg),
-        "## 🚀 精选项目\n\n" + build_projects(cfg, meta),
-        "## 📊 一些数字\n\n" + build_stats(cfg),
+        "## 关于我\n\n" + about,
+        "## 技术栈\n\n" + build_tech(cfg),
+        "## 项目\n\n" + build_projects(cfg, meta),
+        "## 一些数字\n\n" + build_stats(cfg),
         '<p align="center">\n  <sub>crafted with ❤️ by <strong>%s</strong> · powered by 💕 t宝</sub>\n</p>' % p["name"],
     ]
 

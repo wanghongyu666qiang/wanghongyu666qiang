@@ -1,5 +1,5 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg?v=2"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg?v=2" width="100%" alt="starry"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-dark.svg?v=3"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/assets/banner-light.svg?v=3" width="100%" alt="starry"></picture>
 </p>
 
 <p align="center">
@@ -13,16 +13,11 @@
   <a href="https://starrylovetbao.cloud"><img src="https://img.shields.io/badge/Blog-starrylovetbao.cloud-F0883E?style=flat-square&logo=safari&logoColor=white" /></a>
 </p>
 
-## 🧭 关于我
+## 关于我
 
-- 海大在读，写代码是为了把想法真的跑起来，不是为了写而写
-- 喜欢 C++ 的确定感，也喜欢 Python 的随性
-- 手上在推进：AI 家族史系统、校园导航、一个拟人化聊天 Bot
-- 相信好的工程是「删掉的比加上的多」
+海大在读。喜欢 C++ 的确定感，也喜欢 Python 的随性——写代码是为了让想法真的跑起来，不是为了写而写。
 
-> 🎯 现在在忙：**冲刺 2026 AIC · 做一套能给家里人讲故事的 AI 访谈系统**
-
-## 🧰 技术栈
+## 技术栈
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
@@ -42,36 +37,36 @@
   <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
 </p>
 
-## 🚀 精选项目
+## 项目
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <h3>🦀 <a href="https://github.com/wanghongyu666qiang/AskBridge">AskBridge</a></h3>
 <p><code>Rust</code> · ★ 2</p>
-<p>Rust + Win32 写成的截图问 AI 小工具。全局热键框选，截完直接追问，不打断手上的活。</p>
+<p>屏幕上有东西想问 AI，以前得存图、切窗口、再粘回去。这个 Rust 小工具只做一件事：抓 Win32 全局热键，框选完直接问。</p>
 </td>
 <td width="50%" valign="top">
 <h3>🗺️ <a href="https://github.com/wanghongyu666qiang/The-nav-of-hainanu">The-nav-of-hainanu</a></h3>
 <p><code>C++</code></p>
-<p>海南大学三校区导航。C++ 服务端 + HTML/WASM 前端，双图架构（步行/车行两套权重），红绿灯建模与必经点路径筛选。</p>
+<p>数据结构课设。除基本寻路外做了三件事：步行和车行两张图分开算权重、红绿灯时长进边权、必经点多点路径用 DFS 配哈希表筛。</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <h3>💬 <a href="https://github.com/wanghongyu666qiang/astrbot_plugin_private_companion">private_companion</a></h3>
 <p><code>Python</code></p>
-<p>AstrBot 拟人化整合插件。连续状态机、生活日程、日记与低频主动消息，60+ 项功能。</p>
+<p>AstrBot 的拟人化插件。状态机、作息日程、日记、低频主动消息，60+ 项功能都在解决同一件事：让 bot 有连续的自我，而不是每句话都从零开始。</p>
 </td>
 <td width="50%" valign="top">
 <h3>💸 <a href="https://github.com/wanghongyu666qiang/smart-expense-tracker">smart-expense-tracker</a></h3>
 <p><code>Vue</code></p>
-<p>Vue 3 个人开支追踪。收支记录、分类统计与可视化，一个把预算看明白的小工具。</p>
+<p>Vue 3 课程作业。收支记录、分类统计、趋势图，用来把每个月的钱到底花在哪看清楚。</p>
 </td>
 </tr>
 </table>
 
-## 📊 一些数字
+## 一些数字
 
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=wanghongyu666qiang&hide_border=true&background=00000000&stroke=F0883E&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideNums=F0883E&currStreakNum=FFF7F1&sideLabels=C2A090&dates=C2A090"><img src="https://streak-stats.demolab.com/?user=wanghongyu666qiang&hide_border=true&background=00000000&stroke=F0883E&ring=F0883E&fire=F0883E&currStreakLabel=F0883E&sideNums=F0883E&currStreakNum=2C1A11&sideLabels=6E5446&dates=6E5446" alt="GitHub streak"></picture>
@@ -83,7 +78,7 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg?v=2"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg?v=2" width="100%" alt="Contribution snake"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake-dark.svg?v=3"><img src="https://raw.githubusercontent.com/wanghongyu666qiang/wanghongyu666qiang/main/output/github-contribution-grid-snake.svg?v=3" width="100%" alt="Contribution snake"></picture>
 </p>
 
 <p align="center">

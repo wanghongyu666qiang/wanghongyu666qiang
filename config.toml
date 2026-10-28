@@ -1,16 +1,19 @@
 # ─────────────────────────────────────────────
 #  GitHub 主页唯一数据源
-#  改这里 → 推上去 → Actions 自动重生成 README + banner
+#  改这里 → push → Actions 读配置重生成 README.md 和 banner
+#  （config.toml 自己不显示在页面上，它只是原料）
 # ─────────────────────────────────────────────
 
 [profile]
-name      = "starry"                 # banner 大字
-real_name = "Hongyu Wang"            # banner 副标题里的英文名
-github    = "wanghongyu666qiang"
-school    = "海南大学"
-location  = "海口"
-headline  = "把想法变成能跑的东西"    # banner 底下那句，也是徽章
-asset_version = "2"                  # 改了 banner/蛇图后 +1，强制刷新 GitHub 图片缓存
+name         = "starry"                # banner 大字
+real_name    = "Hongyu Wang"
+github       = "wanghongyu666qiang"
+school       = "海南大学"
+school_en    = "Hainan University"     # banner 里用英文，和等宽字体才搭
+location     = "海口"
+location_en  = "Haikou"
+headline     = "把想法变成能跑的东西"
+asset_version = "3"                    # 改了 banner / 蛇图后 +1，否则 GitHub 图片缓存会装死
 
 [contact]
 email     = "why17573315302@gmail.com"
@@ -22,17 +25,9 @@ blog_name = "starrylovetbao.cloud"
 # zhihu  = "https://www.zhihu.com/people/xxx"
 # juejin = "https://juejin.cn/user/xxx"
 
-# 现在在忙什么（一行，留空则整段不渲染）
-[now]
-text = "冲刺 2026 AIC · 做一套能给家里人讲故事的 AI 访谈系统"
-
 [about]
-items = [
-  "海大在读，写代码是为了把想法真的跑起来，不是为了写而写",
-  "喜欢 C++ 的确定感，也喜欢 Python 的随性",
-  "手上在推进：AI 家族史系统、校园导航、一个拟人化聊天 Bot",
-  "相信好的工程是「删掉的比加上的多」",
-]
+# 一段话，不写成清单。清单看起来像简历模板。
+text = "海大在读。喜欢 C++ 的确定感，也喜欢 Python 的随性——写代码是为了让想法真的跑起来，不是为了写而写。"
 
 [tech]
 languages  = ["C++", "Python", "TypeScript", "Rust"]
@@ -40,15 +35,15 @@ frameworks = ["Vue.js", "Next.js"]
 web        = ["HTML5", "CSS3", "WebAssembly"]
 tools      = ["Git", "Linux", "Docker", "VSCode"]
 
-# ─── 精选项目 ───────────────────────────────
-# stars / lang 是兜底值；Actions 里会尝试用 GitHub API 拉真实数据
+# ─── 项目 ───────────────────────────────────
+# stars / lang 是兜底值；Actions 里会用 GitHub API 拉真实数据
 [[projects]]
 name  = "AskBridge"
 repo  = "AskBridge"
 lang  = "Rust"
 stars = 2
 emoji = "🦀"
-desc  = "Rust + Win32 写成的截图问 AI 小工具。全局热键框选，截完直接追问，不打断手上的活。"
+desc  = "屏幕上有东西想问 AI，以前得存图、切窗口、再粘回去。这个 Rust 小工具只做一件事：抓 Win32 全局热键，框选完直接问。"
 
 [[projects]]
 name  = "The-nav-of-hainanu"
@@ -56,7 +51,7 @@ repo  = "The-nav-of-hainanu"
 lang  = "C++"
 stars = 0
 emoji = "🗺️"
-desc  = "海南大学三校区导航。C++ 服务端 + HTML/WASM 前端，双图架构（步行/车行两套权重），红绿灯建模与必经点路径筛选。"
+desc  = "数据结构课设。除基本寻路外做了三件事：步行和车行两张图分开算权重、红绿灯时长进边权、必经点多点路径用 DFS 配哈希表筛。"
 
 [[projects]]
 name  = "private_companion"
@@ -64,7 +59,7 @@ repo  = "astrbot_plugin_private_companion"
 lang  = "Python"
 stars = 0
 emoji = "💬"
-desc  = "AstrBot 拟人化整合插件。连续状态机、生活日程、日记与低频主动消息，60+ 项功能。"
+desc  = "AstrBot 的拟人化插件。状态机、作息日程、日记、低频主动消息，60+ 项功能都在解决同一件事：让 bot 有连续的自我，而不是每句话都从零开始。"
 
 [[projects]]
 name  = "smart-expense-tracker"
@@ -72,9 +67,9 @@ repo  = "smart-expense-tracker"
 lang  = "Vue"
 stars = 0
 emoji = "💸"
-desc  = "Vue 3 个人开支追踪。收支记录、分类统计与可视化，一个把预算看明白的小工具。"
+desc  = "Vue 3 课程作业。收支记录、分类统计、趋势图，用来把每个月的钱到底花在哪看清楚。"
 
-# ─── 统计模块开关（不需要的填 false）─────────
+# ─── 统计模块开关 ────────────────────────────
 [stats]
 streak   = true
 overview = true
